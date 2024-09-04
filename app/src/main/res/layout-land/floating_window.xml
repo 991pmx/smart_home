@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:visibility="visible"
+    tools:ignore="MissingDefaultResource">
+
+    <ImageView
+        android:id="@+id/tofull"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:scaleX="0.5"
+        android:scaleY="0.5"
+        android:elevation="10dp"
+        android:src="@drawable/tofull" />
+
+    <ImageView
+        android:id="@+id/pause_small"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:elevation="10dp"
+        android:scaleX="0.5"
+        android:scaleY="0.5"
+
+        android:src="@drawable/pause"
+        />
+
+    <ImageView
+        android:id="@+id/play_small"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:visibility="invisible"
+        android:elevation="10dp"
+        android:scaleX="0.5"
+        android:scaleY="0.5"
+
+        android:src="@drawable/play"
+
+        />
+
+    <ImageView
+        android:id="@+id/close"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:elevation="10dp"
+        android:scaleX="0.5"
+        android:scaleY="0.5"
+        android:visibility="visible"
+
+        app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+
+</FrameLayout>

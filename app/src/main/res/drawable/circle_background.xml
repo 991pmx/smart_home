@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <solid android:color="#FF000000"/> <!-- 设置圆形背景颜色，这里是黑色 -->
+    <!-- 无需设置size，因为大小将由ImageButton的布局参数决定 -->
+
+</shape>
